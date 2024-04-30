@@ -1,0 +1,52 @@
+.container {
+  margin: auto;
+  margin-top: 30px;
+  max-width: 475px;
+  border: 4px inset #000;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.userImg {
+  border-radius: 50%;
+  width: 300px;
+  margin: 10px auto;
+  background-color: #454040;
+}
+
+.userTag {
+  color: #808080;
+}
+
+.userLocation {
+  color: #808080;
+}
+
+.userMeta {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: solid #808080;
+  border-radius: 0 0 15px 15px;
+  background-color: #d3d3d3;
+}
+
+.userMeta li {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  padding: 10px;
+}
+
+li:not(:last-child) {
+  border-right: solid #808080;
+}
+
+.stats {
+  font-weight: 700;
+}
