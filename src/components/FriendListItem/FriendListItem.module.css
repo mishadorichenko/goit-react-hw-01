@@ -1,0 +1,18 @@
+.friendImg {
+  margin: 0 auto;
+}
+
+.friendName {
+  font-weight: 500;
+}
+
+.status {
+  font-size: 18px;
+}
+.statusOnline {
+  color: green;
+}
+
+.statusOffline {
+  color: red;
+}
